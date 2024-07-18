@@ -11,6 +11,8 @@ module.exports = {
         abu: '#3A3A3A',
         abu2: '#425466',
         dongker: '#0A2540',
+        dasar: '#C4CCD8',
+        ungu: '#635BFF',
       }
     },
   },

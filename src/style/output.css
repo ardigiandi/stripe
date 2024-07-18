@@ -581,32 +581,40 @@ html{
   margin-right: auto;
 }
 
+.mt-32{
+  margin-top: 8rem;
+}
+
 .mt-8{
   margin-top: 2rem;
+}
+
+.mt-\[140px\]{
+  margin-top: 140px;
 }
 
 .mt-\[142px\]{
   margin-top: 142px;
 }
 
-.mt-\[42\[x\]\]{
-  margin-top: 42[x];
-}
-
-.mt-\[42px\]{
-  margin-top: 42px;
-}
-
 .flex{
   display: flex;
+}
+
+.h-\[371px\]{
+  height: 371px;
 }
 
 .h-\[488\.47px\]{
   height: 488.47px;
 }
 
-.h-full{
-  height: 100%;
+.w-\[416px\]{
+  width: 416px;
+}
+
+.w-\[496px\]{
+  width: 496px;
 }
 
 .w-\[520px\]{
@@ -629,8 +637,28 @@ html{
   flex-grow: 1;
 }
 
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.items-end{
+  align-items: flex-end;
+}
+
 .items-center{
   align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
 }
 
 .justify-between{
@@ -645,6 +673,11 @@ html{
 .gap-x-2{
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
+}
+
+.gap-x-20{
+  -moz-column-gap: 5rem;
+       column-gap: 5rem;
 }
 
 .gap-x-3{
@@ -667,18 +700,31 @@ html{
        column-gap: 1.75rem;
 }
 
+.gap-y-12{
+  row-gap: 3rem;
+}
+
+.gap-y-8{
+  row-gap: 2rem;
+}
+
 .rounded-full{
   border-radius: 9999px;
 }
 
-.bg-white{
+.bg-dasar{
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  background-color: rgb(196 204 216 / var(--tw-bg-opacity));
 }
 
 .bg-dongker{
   --tw-bg-opacity: 1;
   background-color: rgb(10 37 64 / var(--tw-bg-opacity));
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .px-4{
@@ -694,6 +740,14 @@ html{
 .py-5{
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.pt-\[121px\]{
+  padding-top: 121px;
+}
+
+.text-\[44px\]{
+  font-size: 44px;
 }
 
 .text-\[78px\]{
@@ -732,17 +786,22 @@ html{
   color: rgb(66 84 102 / var(--tw-text-opacity));
 }
 
+.text-dongker{
+  --tw-text-opacity: 1;
+  color: rgb(10 37 64 / var(--tw-text-opacity));
+}
+
 .text-oren{
   --tw-text-opacity: 1;
   color: rgb(225 117 56 / var(--tw-text-opacity));
 }
 
+.text-ungu{
+  --tw-text-opacity: 1;
+  color: rgb(99 91 255 / var(--tw-text-opacity));
+}
+
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-dongker{
-  --tw-text-opacity: 1;
-  color: rgb(10 37 64 / var(--tw-text-opacity));
 }
